@@ -14,9 +14,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="26dp"
         android:text="Ticket Vault"
-        android:textSize="40sp" />
+        android:textSize="40sp"
+        android:textColor="#55AE3A" />
 
     <EditText
         android:id="@+id/txtTickets"
@@ -39,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/txtTickets"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="14dp"
         android:entries="@array/Groups"
         android:prompt="@string/Title" />
 
@@ -49,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/txtGroup"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="14dp"
         android:text="Find Ticket Cost"
         android:textSize="25sp" />
 
@@ -59,8 +60,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnCost"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="44dp"
-        android:textSize="20sp" />
+        android:layout_marginTop="14dp"
+        android:textSize="20sp"
+        android:textColor="#308014" />
 
     <ImageView
         android:id="@+id/imageView1"
