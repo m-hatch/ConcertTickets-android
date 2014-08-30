@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp"
+        android:layout_marginTop="10dp"
         android:ems="10"
         android:hint="Number of Tickets"
         android:inputType="number"
@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/txtTickets"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp"
+        android:layout_marginTop="10dp"
         android:entries="@array/Groups"
         android:prompt="@string/Title" />
 
@@ -50,9 +50,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/txtGroup"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp"
+        android:layout_marginTop="10dp"
         android:text="Find Ticket Cost"
-        android:textSize="25sp" />
+        android:textSize="22sp"
+        android:textColor="#b20000" />
 
     <TextView
         android:id="@+id/txtResult"
@@ -60,7 +61,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnCost"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp"
+        android:layout_marginTop="10dp"
         android:textSize="20sp"
         android:textColor="#308014" />
 
