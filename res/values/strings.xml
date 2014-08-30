@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Concert Tickets</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string-array name="Groups">
+        <item >Dragonfly</item>
+        <item >Nine Volt</item>
+        <item >Red Road</item>
+    </string-array>
+    <string name="Title">Select Group</string>
+
+</resources>
